@@ -1,0 +1,67 @@
+# Reading G:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do speccy_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying G:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied G:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC {H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC/dac.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:34:16 on May 18,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC" H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC/dac.v 
+# -- Compiling module dac
+# 
+# Top level modules:
+# 	dac
+# End time: 21:34:16 on May 18,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard {H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 21:34:16 on May 18,2015
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard" H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v 
+# -- Compiling module zxkbd
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(17): (vlog-2730) Undefined variable: 'res_key'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(18): (vlog-2730) Undefined variable: 'f_key'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(19): (vlog-2730) Undefined variable: 'kempston'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(20): (vlog-2730) Undefined variable: 'numlock'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(23): (vlog-2388) 'res_key' already declared in this scope (zxkbd).
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(24): (vlog-2388) 'f_key' already declared in this scope (zxkbd).
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(29): (vlog-2388) 'kempston' already declared in this scope (zxkbd).
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(30): (vlog-2388) 'numlock' already declared in this scope (zxkbd).
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(42): (vlog-2730) Undefined variable: 'ps2dsr'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(43): (vlog-2730) Undefined variable: 'ps2rden'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(53): (vlog-2730) Undefined variable: 'ps2q'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(159): (vlog-2730) Undefined variable: 'keymatrix'.
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(168): 'Formal' must not be declared to be an array: keymatrix.
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(331): (vlog-2388) 'ps2rden' already declared in this scope (zxkbd).
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(332): (vlog-2388) 'ps2q' already declared in this scope (zxkbd).
+# 
+# ** Error: H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard/zxkbd.v(333): (vlog-2388) 'ps2dsr' already declared in this scope (zxkbd).
+# 
+# End time: 21:34:16 on May 18,2015, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+# ** Error: G:/altera/15.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./speccy_run_msim_rtl_vhdl.do line 9
+# G:/altera/15.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/keyboard {H:/projects/prj_fpga_altera/pr..."

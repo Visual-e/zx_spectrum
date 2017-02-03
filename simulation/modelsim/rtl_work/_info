@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/simulation/modelsim
+vdac
+!s110 1431966856
+!i10b 1
+!s100 HkAb3<4U3FiH;PASe3jfG0
+Ikoc7gjI3=`@CVWde;idnj2
+V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1385975668
+8H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC/dac.v
+FH:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC/dac.v
+L0 1
+OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1431966856.578000
+!s107 H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC/dac.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC|H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC/dac.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+H:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/zx_spectrum/DAC
